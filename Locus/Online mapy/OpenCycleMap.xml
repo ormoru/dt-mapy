@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <provider id="5070" type="0" visible="true" background="-1">
+        <name>OpenCycleMap</name>
+        <mode>Cycle</mode>
+        <countries>World</countries>
+        <usage>cycle</usage>
+        <url><![CDATA[http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b;c</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 OpenCycleMap DE map]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://opencyclemap.org/]]></extraHeader>
+    </provider>
+    <provider id="5071" type="0" visible="true" background="-1">
+        <name>OpenCycleMap</name>
+        <mode>Outdoors</mode>
+        <countries>World</countries>
+        <usage>cycle,hiking</usage>
+        <url><![CDATA[http://{s}.tile.opencyclemap.org/outdoors/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b;c</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 OpenCycleMap DE map]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://opencyclemap.org/]]></extraHeader>
+    </provider>
+    <provider id="5072" type="0" visible="true" background="-1">
+        <name>OpenCycleMap</name>
+        <mode>Transport</mode>
+        <countries>World</countries>
+        <usage>city,transport</usage>
+        <url><![CDATA[http://{s}.tile2.opencyclemap.org/transport/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b;c</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 OpenCycleMap DE map]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://opencyclemap.org/]]></extraHeader>
+    </provider>
+</providers>

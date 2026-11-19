@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <provider id="5010" type="0" visible="true" background="-1">
+        <name>Esri</name>
+        <mode>Normal</mode>
+        <countries>World</countries>
+        <usage>city,road</usage>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 Esri map]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://server.arcgisonline.com/]]></extraHeader>
+    </provider>
+    <provider id="5011" type="0" visible="true" background="-1">
+        <name>Esri</name>
+        <mode>WorldTerrain</mode>
+        <countries>World</countries>
+        <usage>overlay</usage>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 Esri map]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://server.arcgisonline.com/]]></extraHeader>
+    </provider>
+    <provider id="5012" type="0" visible="true" background="-1">
+        <name>Esri</name>
+        <mode>WorldShadedRelief</mode>
+        <countries>World</countries>
+        <usage>overlay</usage>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 Esri map]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://server.arcgisonline.com/]]></extraHeader>
+    </provider>
+    <provider id="5013" type="0" visible="true" background="-1">
+        <name>Esri</name>
+        <mode>WorldGrayCanvas</mode>
+        <countries>World</countries>
+        <usage>overlay</usage>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 Esri map]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://server.arcgisonline.com/]]></extraHeader>
+    </provider>
+</providers>

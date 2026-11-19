@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <provider id="5060" type="0" visible="true" background="-1">
+        <name>MapyCzo</name>
+        <mode>Turistická</mode>
+        <countries>World</countries>
+        <usage>cycle,hiking</usage>
+        <!-- <url><![CDATA[http://m{s}.mapserver.mapy.cz/turist-m/{z}-{x}-{y}]]></url> -->
+        <url><![CDATA[https://mapserver.mapy.cz/turist-m/{z}-{x}-{y}]]></url>
+        <!-- <serverPart>1;2;3;4</serverPart> -->
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>13</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© <a href='http://www.seznam.cz' target='_blank'>&copy; Seznam.cz a.s. a další</a>]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://mapy.cz/]]></extraHeader>
+    </provider>
+    <provider id="5061" type="0" visible="true" background="-1">
+        <name>MapyCzo</name>
+        <mode>Základní</mode>
+        <countries>World</countries>
+        <usage>city,road</usage>
+        <!-- <url><![CDATA[http://m{s}.mapserver.mapy.cz/base-m/{z}-{x}-{y}]]></url> -->
+        <url><![CDATA[https://mapserver.mapy.cz/base-m/{z}-{x}-{y}]]></url>
+        <!-- <serverPart>1;2;3;4</serverPart> -->
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>13</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© <a href='http://www.seznam.cz' target='_blank'>&copy; Seznam.cz a.s. a další</a>]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://mapy.cz/]]></extraHeader>
+    </provider>
+<!--
+    <provider id="5063" type="0" visible="true" background="-1">
+        <name>MapyCzo</name>
+        <mode>Letní</mode>
+        <countries>World</countries>
+        <usage>hiking</usage>
+        <url><![CDATA[https://mapserver.mapy.cz/aquatic-m/{z}-{x}-{y}]]></url>
+        <serverPart>1;2;3;4</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>13</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© <a href='http://www.seznam.cz' target='_blank'>&copy; Seznam.cz a.s. a další</a>]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://mapy.cz/]]></extraHeader>
+    </provider>
+-->
+    <provider id="5064" type="0" visible="true" background="-1">
+        <name>MapyCzo</name>
+        <mode>Zimní</mode>
+        <countries>World</countries>
+        <usage>ski</usage>
+        <url><![CDATA[https://mapserver.mapy.cz/winter-m-down/{z}-{x}-{y}]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>13</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© <a href='http://www.seznam.cz' target='_blank'>&copy; Seznam.cz a.s. a další</a>]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://mapy.cz/]]></extraHeader>
+    </provider>
+    <provider id="5065" type="0" visible="true" background="-1">
+        <name>MapyCzo</name>
+        <mode>Zeměpis</mode>
+        <countries>World</countries>
+        <usage>hiking</usage>
+        <!-- <url><![CDATA[http://m{s}.mapserver.mapy.cz/zemepis-m/{z}-{x}-{y}]]></url> -->
+        <url><![CDATA[https://mapserver.mapy.cz/zemepis-m/{z}-{x}-{y}]]></url>
+        <!-- <serverPart>1;2;3;4</serverPart> -->
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>13</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© <a href='http://www.seznam.cz' target='_blank'>&copy; Seznam.cz a.s. a další</a>]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://mapy.cz/]]></extraHeader>
+    </provider>
+    <provider id="5066" type="0" visible="true" background="-1">
+        <name>MapyCzo</name>
+        <mode>Orto</mode>
+        <countries>World</countries>
+        <usage>photo</usage>
+        <url><![CDATA[https://mapserver.mapy.cz/bing/{z}-{x}-{y}]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>13</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© <a href='http://www.seznam.cz' target='_blank'>&copy; Seznam.cz a.s. a další</a>]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://mapy.cz/]]></extraHeader>
+    </provider>
+    <provider id="5067" type="0" visible="true" background="-1">
+        <name>MapyCzo</name>
+        <mode>19. století</mode>
+        <countries>World</countries>
+        <usage>city</usage>
+        <!-- <url><![CDATA[http://m{s}.mapserver.mapy.cz/army2-m/{z}-{x}-{y}]]></url> -->
+        <url><![CDATA[https://mapserver.mapy.cz/army2-m/{z}-{x}-{y}]]></url>
+        <!-- <serverPart>1;2;3;4</serverPart> -->
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>13</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© <a href='http://www.seznam.cz' target='_blank'>&copy; Seznam.cz a.s. a další</a>]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://mapy.cz/]]></extraHeader>
+    </provider>
+</providers>

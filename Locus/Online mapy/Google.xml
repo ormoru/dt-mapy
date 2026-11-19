@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <provider id="5020" type="0" visible="true" background="-1">
+        <name>Google</name>
+        <mode>Klasická</mode>
+        <countries>World</countries>
+        <usage>road</usage>
+        <url><![CDATA[https://mt{s}.google.com/vt/lyrs=m@140&hl=en&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://maps.google.com/]]></extraHeader>
+    </provider>
+    <provider id="5021" type="0" visible="true" background="-1">
+        <name>Google</name>
+        <mode>Satelitní</mode>
+        <countries>World</countries>
+        <usage>photo</usage>
+        <!-- <url><![CDATA[https://khm{s}.google.com/kh/v=83&hl=en&x={x}&y={y}&z={z}]]></url> -->
+        <url><![CDATA[https://mt{s}.google.com/vt/lyrs=s@245000000&hl=en&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>28</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://maps.google.com/]]></extraHeader>
+    </provider>
+    <provider id="5022" type="0" visible="true" background="-1">
+        <name>Google</name>
+        <mode>Hybridní</mode>
+        <countries>World</countries>
+        <usage>photo</usage>
+        <url><![CDATA[https://mt{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>28</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://maps.google.com/]]></extraHeader>
+    </provider>
+    <provider id="5023" type="0" visible="true" background="-1">
+        <name>Google</name>
+        <mode>Terén</mode>
+        <countries>World</countries>
+        <usage>photo</usage>
+        <url><![CDATA[https://mt{s}.google.com/vt/lyrs=t@140,r@128&hl=en&src=api&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#https://maps.google.com/]]></extraHeader>
+    </provider>
+</providers>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <provider id="5090" type="0" visible="true" background="-1">
+        <name>Thunderforest</name>
+        <mode>Landscape</mode>
+        <countries>World</countries>
+        <usage>cyclo,hiking</usage>
+        <url><![CDATA[https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=9850300f2e0443bba95f7f8c70fbbd77]]></url>
+        <serverPart>a;b;c</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[&copy; <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="5091" type="0" visible="true" background="-1">
+        <name>Thunderforest</name>
+        <mode>Cycle</mode>
+        <countries>World</countries>
+        <usage>cycle</usage>
+        <url><![CDATA[https://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=9850300f2e0443bba95f7f8c70fbbd77]]></url>
+        <serverPart>a;b;c</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[&copy; <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="5092" type="0" visible="true" background="-1">
+        <name>Thunderforest</name>
+        <mode>Outdoors</mode>
+        <countries>World</countries>
+        <usage>hiking</usage>
+        <url><![CDATA[https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=9850300f2e0443bba95f7f8c70fbbd77]]></url>
+        <serverPart>a;b;c</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[&copy; <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="5093" type="0" visible="true" background="-1">
+        <name>Thunderforest</name>
+        <mode>Transport</mode>
+        <countries>World</countries>
+        <usage>transport</usage>
+        <url><![CDATA[https://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=9850300f2e0443bba95f7f8c70fbbd77]]></url>
+        <serverPart>a;b;c</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[&copy; <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="5094" type="0" visible="true" background="-1">
+        <name>Thunderforest</name>
+        <mode>Neighbourhood</mode>
+        <countries>World</countries>
+        <usage>city,road</usage>
+        <url><![CDATA[https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=9850300f2e0443bba95f7f8c70fbbd77]]></url>
+        <serverPart>a;b;c</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[&copy; <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+</providers>

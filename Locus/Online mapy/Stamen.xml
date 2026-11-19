@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <provider id="5080" type="0" visible="true" background="-1">
+        <name>Stamen</name>
+        <mode>Toner</mode>
+        <countries>World</countries>
+        <usage>photo</usage>
+        <url><![CDATA[https://tiles-eu.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="5081" type="0" visible="true" background="-1">
+        <name>Stamen</name>
+        <mode>WaterColor</mode>
+        <countries>World</countries>
+        <usage>photo</usage>
+        <url><![CDATA[https://tiles-eu.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="5082" type="0" visible="true" background="-1">
+        <name>Stamen</name>
+        <mode>Terrain</mode>
+        <countries>World</countries>
+        <usage>photo</usage>
+        <url><![CDATA[https://tiles-eu.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+</providers>
